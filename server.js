@@ -12,7 +12,7 @@ const io = new socket_io_1.Server(server, {
         origin: "*"
     }
 });
-const port = 80;
+const port = 3000;
 server.listen(port, () => console.log('app listening on port ' + port));
 io.on('connection', (socket) => {
     // "clientMessage"イベントを作成、登録する
