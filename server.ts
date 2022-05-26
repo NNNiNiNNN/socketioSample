@@ -10,7 +10,7 @@ const io = new Server(server, {
     }
 });
 
-const port = 5000;
+const port = 80;
 
 server.listen(port, () => console.log('app listening on port ' + port));
 
