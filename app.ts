@@ -1,7 +1,8 @@
 
 import {io} from 'socket.io-client';
 
-const socket = io('http://localhost:' + 5000);
+const socket = io('http://35.193.128.246:' + 5000);
+//const socket = io('http://localhost:' + 5000);
 
 // 接続時にこのイベントが発火する
 socket.on('connect', () => console.log('connect'));
